@@ -12,7 +12,9 @@ class B extends A {
 }
 
 class C extends A {
-  
+  void show (){
+    System.out.println("in c");
+  }
 }
 
 

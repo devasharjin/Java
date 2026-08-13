@@ -1,13 +1,29 @@
-enum Status {
-  success , failure, running, loading
+enum Computer {
+  macBook(1500), victus(), vivobook(500), nitro(800);
+
+  private int price;
+
+  Computer() {
+    this.price = 700;
+  }
+
+  Computer(int price) {
+    this.price = price;
+  }
+
+  public int getPrice() {
+    return price;
+  }
+
 }
 
 public class P41_enum_class {
   public static void main(String[] args) {
-    // Status s = Status.success;
-    // System.out.println(s.ordinal());
+    Computer obj[] = Computer.values();
 
-    Status s[] = Status.values();
-    System.out.println(s[0]);
+    for (Computer lap : obj) {
+      System.out.println(lap + " : " + lap.getPrice());
+    }
+
   }
 }

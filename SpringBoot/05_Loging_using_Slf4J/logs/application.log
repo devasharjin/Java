@@ -1,0 +1,15 @@
+2026-10-29 17:40:06 INFO  [main] o.dev.loging_using_slf4j.Application - Starting Application using Java 26.0.2 with PID 18104 (C:\Users\sharj\Desktop\Deva\Java\SpringBoot\05_Loging_using_Slf4J\target\classes started by sharj in C:\Users\sharj\Desktop\Deva\Java\SpringBoot\05_Loging_using_Slf4J)
+2026-10-29 17:40:06 DEBUG [main] o.dev.loging_using_slf4j.Application - Running with Spring Boot v4.1.2, Spring v7.0.10
+2026-10-29 17:40:06 INFO  [main] o.dev.loging_using_slf4j.Application - No active profile set, falling back to 1 default profile: "default"
+2026-10-29 17:40:07 INFO  [main] o.s.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-10-29 17:40:07 INFO  [main] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-10-29 17:40:07 INFO  [main] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.27]
+2026-10-29 17:40:07 INFO  [main] o.s.b.w.c.s.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 1072 ms
+2026-10-29 17:40:08 INFO  [main] o.s.boot.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-10-29 17:40:08 INFO  [main] o.dev.loging_using_slf4j.Application - Started Application in 2.188 seconds (process running for 2.747)
+2026-10-29 17:40:26 INFO  [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-10-29 17:40:26 INFO  [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-10-29 17:40:26 INFO  [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2026-10-29 17:40:26 INFO  [http-nio-8080-exec-1] o.d.l.Controller.DemoController - Demo started
+2026-10-29 17:42:04 INFO  [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-10-29 17:42:04 INFO  [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown - Graceful shutdown complete
